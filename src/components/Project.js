@@ -23,7 +23,7 @@ const Project = () => {
   }, []);
   return (
     <>
-    <article className="portfolio" data-page="portfolio">
+    <article className="portfolio" data-page="projects">
 
 <header>
   <h2 className="h2 article-title">Portfolio</h2>
