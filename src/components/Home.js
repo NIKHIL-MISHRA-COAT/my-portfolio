@@ -42,7 +42,7 @@ const Home = () => {
           </li>
 
           <li className="navbar-item">
-            <button className="navbar-link" data-nav-link>Portfolio</button>
+            <button className="navbar-link" data-nav-link>Projects</button>
           </li>
 
           <li className="navbar-item">
