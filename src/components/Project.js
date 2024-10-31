@@ -36,18 +36,18 @@ const Project = () => {
     <li className="filter-item">
       <button className="active" data-filter-btn>All</button>
     </li>
-
-    <li className="filter-item">
-      <button data-filter-btn>Web design</button>
+     <li className="filter-item">
+      <button data-filter-btn>Web development</button>
     </li>
+   
 
     <li className="filter-item">
       <button data-filter-btn>Applications</button>
     </li>
-
-    <li className="filter-item">
-      <button data-filter-btn>Web development</button>
+ <li className="filter-item">
+      <button data-filter-btn>utils</button>
     </li>
+    
 
   </ul>
 
