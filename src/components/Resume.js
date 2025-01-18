@@ -76,19 +76,7 @@ const Resume = () => {
 
   <ol className="timeline-list">
 
-    <li className="timeline-item">
-
-      <h4 className="h4 timeline-item-title">Web Developer intern</h4>
-
-      <span>2015 — Present</span>
-
-      <p className="timeline-text">
-        Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-        molestias
-        exceptur.
-      </p>
-
-    </li>
+    
 
     <li className="timeline-item">
 
