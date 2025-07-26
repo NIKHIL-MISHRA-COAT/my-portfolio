@@ -12,16 +12,16 @@ const ParallaxBackground = () => {
     <section className="absolute inset-0 bg-black/40">
       <div className="relative h-screen overflow-y-hidden">
         {/* Background Sky */}
-        <div
+        {/* <div
           className="absolute inset-0 w-full h-screen -z-50"
           style={{
             backgroundImage: "url(/assets/sky.jpg)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
           }}
-        />
+        /> */}
         {/* Mountain Layer 3 */}
-        <motion.div
+        {/* <motion.div
           className="absolute inset-0 -z-40"
           style={{
             backgroundImage: "url(/assets/mountain-3.png)",
@@ -29,9 +29,9 @@ const ParallaxBackground = () => {
             backgroundSize: "cover",
             y: mountain3Y,
           }}
-        />
+        /> */}
         {/* Planets */}
-        <motion.div
+        {/* <motion.div
           className="absolute inset-0 -z-30"
           style={{
             backgroundImage: "url(/assets/planets.png)",
@@ -39,7 +39,7 @@ const ParallaxBackground = () => {
             backgroundSize: "cover",
             x: planetsX,
           }}
-        />
+        /> */}
         {/* Mountain Layer 2 */}
         <motion.div
           className="absolute inset-0 -z-20"
@@ -48,10 +48,11 @@ const ParallaxBackground = () => {
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             y: mountain2Y,
+            opacity :0.6,
           }}
         />
         {/* Mountaine Layer 1 */}
-        <motion.div
+        {/* <motion.div
           className="absolute inset-0 -z-10"
           style={{
             backgroundImage: "url(/assets/mountain-1.png)",
@@ -59,7 +60,7 @@ const ParallaxBackground = () => {
             backgroundSize: "cover",
             y: mountain1Y,
           }}
-        />
+        /> */}
       </div>
     </section>
   );
